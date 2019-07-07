@@ -1,0 +1,33 @@
+body { 
+background-color: #eceff0; 
+}
+
+.container { 
+background-color: white; 
+max-width: 700px;
+margin: 30px;
+padding: 20px;
+border-radius: 20px;
+font-size: 30px;
+font-style: italic;
+position: relative;
+left: 20%;
+}
+
+.container .header {
+  margin-bottom: 20px; text-align: center;
+}
+
+input { width: 400px; height: 40px; position: relative; left:20%;}
+button { width: 100px; height: 35px; border-radius: 10px; }
+a.done-button { text-decoration: none; padding: 20px; font-weight: 500;} 
+
+p.date { color: green; font-size: 20px;}
+
+
+.errorss { 
+color: red;
+font-size: 15px;
+}
+
+.tasks .done { text-decoration: line-through;}
